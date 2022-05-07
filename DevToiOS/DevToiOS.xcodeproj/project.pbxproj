@@ -16,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C9916D22826012B009101E8 /* Views */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Views; sourceTree = "<group>"; };
+		0C9916D428260262009101E8 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Assets; sourceTree = "<group>"; };
 		0CA5ACC42825FCBA00371383 /* DevToiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevToiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA5ACC72825FCBA00371383 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA5ACC92825FCBA00371383 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,9 +39,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C9916C428260004009101E8 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				0C9916D0282600F4009101E8 /* DataLayer */,
+				0C9916D1282600F4009101E8 /* DomainLayer */,
+				0C9916CF282600F4009101E8 /* PresentationLayer */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		0C9916CF282600F4009101E8 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				0C9916D3282601FD009101E8 /* Scene */,
+				0C9916D428260262009101E8 /* Assets */,
+				0C9916D22826012B009101E8 /* Views */,
+			);
+			name = PresentationLayer;
+			path = Packages/PresentationLayer;
+			sourceTree = "<group>";
+		};
+		0C9916D0282600F4009101E8 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataLayer;
+			path = Packages/DataLayer;
+			sourceTree = "<group>";
+		};
+		0C9916D1282600F4009101E8 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DomainLayer;
+			path = Packages/DomainLayer;
+			sourceTree = "<group>";
+		};
+		0C9916D3282601FD009101E8 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
 		0CA5ACBB2825FCBA00371383 = {
 			isa = PBXGroup;
 			children = (
+				0C9916C428260004009101E8 /* Packages */,
 				0CA5ACC62825FCBA00371383 /* DevToiOS */,
 				0CA5ACC52825FCBA00371383 /* Products */,
 			);
